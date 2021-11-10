@@ -1,0 +1,486 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    nav ul.social-link li a{
+        display: none;
+    }
+    .home-header {
+        margin-left: 0;
+    }
+    .heading h2 {
+        font-size: 28px;
+    }
+    .home-header {
+        margin-top: 65%;
+    }
+    .home-btn a {
+       font-size: 16px;
+    }
+    #down-arrow {
+        margin-top: 60%;
+        font-size: 22px;
+    }
+    #explore .content-box-md{
+        padding: 50px 0;
+    }
+    #explore-title h2 {
+        font-size: 28px;
+    }
+    #explore-title p {
+        font-size: 14px;
+    }
+    .explore-text-over-img{
+        top: 58%;
+    }
+    .explore-text-over-img a{
+        font-size: 14px;
+    }
+    #counterup .content-box-md{
+        padding-bottom: 50px;
+    }
+    #counterup h2 {
+        font-size: 28px;
+    }
+    .counter-item {
+        width: 100px;
+        margin-bottom: 50px;
+    }
+    .counter-item:after{
+        height: 100px;
+        width: 100px;
+    }
+    .counter-item .counter-content i {
+        font-size: 18px;
+        width: 35px;
+        height: 35px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .counter-item .counter-content p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0 20px;
+    }
+    .counter-item .counter-value {
+        font-size: 23px;
+        bottom: -50px;  
+    }
+    #tour .content-box-lg{
+        padding: 50px 0;
+    }
+    #tour-heading h2 {
+        font-size: 36px;
+    }
+    #tour-heading p {
+        font-size: 16px;
+    }
+    .controls-top i {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    #tour .row.tour-row{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .tour-card{
+        height: 350px;
+        width:100%;
+    }
+    .tour-card img.card-img-top{
+        height: 50vw;
+    }
+    .card-title i{
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        top: -90px;
+        left: 75%;
+    }
+    .tour-card:hover .backgroundEffect{
+        height: 190px;
+    }
+    .card-title h4{
+        font-size: 18px;
+    }
+    .tour-card i.fa-star{
+        font-size: 10px;
+    }
+    .card-title p,
+    .tour-badge p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .tour-badge .price{
+        position: absolute;
+        top: -40px;
+        left: 80%;
+    }
+    .tour-card hr{
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+    .card-title i{
+        font-size: 26px;
+        width: 46px;
+        height: 46px;
+    }
+    .tour i{
+      visibility: hidden;
+      }
+    .tour a{
+        width: 90px;
+        margin-top: 15px;
+    }
+    .price{
+        font-size: 18px;
+    }
+    #services .content-box-md{
+        padding: 20px 0;
+    }
+    #service-text-block p{
+        width: 100%;
+       font-size: 16px;
+    }
+    #service-transportation img{
+        height: 280px;
+        top: -120px; 
+    }
+    .sample-service-img{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .service-box .caption span{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    nav ul.social-link li a{
+        display: none;
+    }
+    .heading h2 {
+        font-size: 46px;
+    }
+    .home-header {
+        margin-top: 27%;
+    }
+    #down-arrow {
+        margin-top: 24%;
+        font-size: 28px;
+    }
+    .explore-text-over-img{
+        top: 65%;
+    }
+    .explore-text-over-img a{
+        font-size: 15px;
+    }
+    .home-beach,
+    .home-pagado,
+    .home-island,
+    .home-mountain,
+    .home-explore #home-overlay {
+        height: 400px;
+    }
+    .home-explore .beach-header {
+        margin-top: 22%;
+    }
+    .home-explore .beach-header h2{
+        font-size: 60px; 
+      }
+    .home-explore .beach-header h6{
+        font-size: 30px;
+    }
+    .explore-section .content-box-lg{
+        padding: 60px 0;
+    }
+    #beach-carousel .card .card-img-top img{
+        height: 25vw;
+    }
+    footer .jumbotron-fluid{
+        padding-bottom: 5px;
+        padding-top: 27px;
+    }
+    .address{
+        margin-left: 5px;
+    }
+    .address i{
+        font-size: 16px;
+        display: block;
+    }
+    .address p,
+    .recent-post p{
+        font-size: 14px;
+    }
+    .tag p span{
+        font-size: 14px;
+    }
+    .tag p span.agent{
+        display: block;
+        margin-bottom: 10px;
+        width: 90px;
+    }
+    .counter-item {
+        width: 140px;
+    }
+    .counter-item:after{
+        height: 132px;
+        width: 132px;
+    }
+    .counter-item .counter-content i {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .counter-item .counter-content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .counter-item .counter-value {
+        font-size: 23px;
+        bottom: -70px;
+    }
+    #tour .content-box-lg{
+        padding: 70px 0;
+    }
+    #tour-heading h2 {
+        font-size: 42px;
+    }
+    #tour-heading p {
+        font-size: 16px;
+    }
+    .controls-top i {
+        font-size: 26px;
+    }
+    .tour-card{
+        height: 350px;
+        width: 230px;
+    }
+    .tour-card:hover .backgroundEffect{
+        height: 210px;
+    }
+    .card-title h4{
+        font-size: 18px;
+    }
+    .tour-card i.fa-star{
+        font-size: 10px;
+    }
+    .card-title p,
+    .tour-badge p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .tour-card hr{
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+    .card-title i{
+        font-size: 26px;
+        width: 46px;
+        height: 46px;
+    }
+    .tour i{
+        margin-top: 25px;
+      }
+    .tour a{
+        width: 90px;
+        margin-top: 15px;
+    }
+    .price{
+        font-size: 18px;
+    }
+    #services .content-box-md{
+        padding: 50px 0;
+    }
+    #service-text-block p{
+        width: 100%;
+       font-size: 16px;
+    }
+    #service-transportation img{
+        height: 280px;
+        top: -120px; 
+    }
+    .sample-service-img{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .service-box .caption span{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    #about .content-box-md{
+        padding: 60px 0;
+    }
+    .about-each-box h4{
+       font-size: 1.15rem;
+       margin-bottom: 0;
+    }
+    .about-each-box p{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .small-about-box{
+        left: 23%;
+    }
+    .small-about-box a{
+        height:60px;
+        padding-top: 18px;
+    }
+    #arrangement-img{
+        height: 400px;
+    }
+    .arrangement-box{
+        width: 30%;
+    }
+    .arrangement-box h4{
+        font-size: 18px;
+    }
+    .arrangement-box a{
+        width:80px;
+        padding: 8px;
+    }
+    #client-tabs img{
+        height: 300px;
+    }
+    #client-header h4{
+        font-size: 18px;
+    }
+    #client-tabs ul{
+        margin-bottom: 25px;
+    }
+    .client-text{
+        padding-bottom: 10px;
+    }
+    .client-text h3{
+        font-size: 22px;
+    }
+    .client-text h5{
+        font-size: 16px;
+      }
+    .client-text p.city{
+        font-size: 14px;
+    }
+    .client-text p i{
+        font-size: 16px;
+    }
+    .client-text p.para{
+    line-height: 22px;
+       font-size: 14px;
+       padding: 0 15px;
+    }
+    .progress{
+        height: 18px;
+    }
+    .progress-bar span{
+        bottom: 45px;
+    }
+    #contact .container{
+        width: 100%;
+    }
+    #contact .content-box-md{
+        padding-bottom: 30px;
+        padding-top: 40px;
+        margin-top: 10%;
+    }
+    #contact-box .form-group label,
+    #contact-box .form-group select{
+        font-size: .8rem;
+    }
+    .file-privacy .file i{
+        font-size: 14px;
+    }
+    #contact .contact-address p{
+        font-size: 14px;
+    }
+    #contact-box .form-group .file label{
+        top: 25%;
+        left: 30%;
+        line-height: 20px;
+    }
+    #contact-box .form-group .form-check label{
+        padding-left: 0;
+    }                                           
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #beach-carousel .card{
+        width: 14rem;
+        height: 13rem;
+    }
+    #beach-carousel .card-body{
+        bottom: -250px;
+    }
+    #beach-carousel .card-body p{
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    #beach-carousel .card-body .favorite{
+        font-size: 12px;
+    }
+    .address i{
+        font-size: 16px;
+        padding: 0 6px;
+      }
+    .address p,
+    .recent-post p{
+        font-size: 14px;
+    }
+    .tag p span{
+        font-size: 14px;
+     }
+    #tour .row.tour-row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .card-title h4{
+        font-size: 24px;
+    }
+    .tour-card i.fa-star{
+        font-size: 13px;
+    }
+    .arrangement-box h4{
+        font-size: 20px;
+    }
+    .client-text h3{
+        font-size: 24px;
+    }
+    .client-text h5{
+        font-size: 18px;
+      }
+    .client-text p.city{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .client-text p i{
+        font-size: 20px;
+    }
+    .client-text p.para{
+        line-height: 22px;
+       font-size: 14px;
+    }
+    #contact-box .form-group .file label{
+        top: 30%;
+        left: 20%;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1290.98px){ 
+    #tour .row.tour-row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #beach-carousel .card{
+        width: 17.8rem;
+    }
+ }
