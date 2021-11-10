@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Exploring Website</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="resource/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resource/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resource/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="resource/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="resource/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="resource/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="resource/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- custom css -->
+    <link rel="stylesheet" href="resource/css/style.css" />
+    <link rel="stylesheet" href="resource/css/mediaquery.css">
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"/>
+     <!-- fontawesome -->
+     <link
+     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous"
+     referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <nav class="navbar fixed-top contact-nav">
+        <a href="#home" class="navbar-brand text-dark"><img src="resource/img/logo.png" alt=""></a>
+        <ul class="text-list list-unstyled">
+          <li class="list-inline-item"><a href="index.html">Home</a></li>
+          <li class="list-inline-item"><a href="#">Explore</a></li>
+          <li class="list-inline-item"><a href="#">Services</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Contact</a></li>
+        </ul>
+        <ul class="social-link list-unstyled">
+          <li class="list-inline-item">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#"><i class="far fa-heart"></i></a>
+          </li>
+        </ul>
+    </nav>
+    <section id="contact">
+      <div class="content-box-md">
+        <div class="contact-content">
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>    
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <div id="contact-box">
+                    <h2>Contact</h2>
+                    <form action="">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" name="name" id="name" class="form-control">
+                            <label for="name">Name</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" required>
+                            <label for="email">Email</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" name="address" id="address" class="form-control">
+                            <label for="address">Address</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group ">
+                            <select class="form-control" id="country">
+                              <option>Myanmar</option>
+                              <option>Korea</option>
+                              <option>America</option>
+                              <option>Japan</option>
+                              <option>Singapore</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" id="message"  rows="1" style="overflow-x: hidden;overflow-wrap: break-word;"></textarea>
+                            <label for="message">What do you want to ask us?</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="file-privacy">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <div class="file">
+                                <i class="far fa-file-alt"></i>
+                                <label for="address">File size should not exceed 10MB</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group ">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">I accept your Privacy Policy</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-general send-btn" role="button">
+                        </div>
+                      </div>
+                    </form>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-address">
+                    <h6>USA</h6>
+                    <p>New York, 2829 S Parker Rd #555,CO 80077</p>
+                    <p>+ 1 676 360 44 70</p>
+                </div>
+                <div class="contact-address">
+                  <h6>POLAND</h6>
+                  <p>Gdansk, ul. Szafarnia 11, lok. F8,
+                    80-755</p>
+                </div>
+                <div class="contact-address">
+                  <h6>Office Mail</h6>
+                  <p>travelcrazy@travel.com</p>
+                </div>
+                <div class="contact-address">
+                  <h6>Offical Twitter</h6>
+                  <p>ForU travel</p>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div class="jumbotron jumbotron-fluid mb-0">
+          <div class="container-fluid">
+            <div id="footer-box">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="address">
+                    <h5>Our Address</h5>
+                    <p><i class="fas fa-map-marker-alt"></i>78 <sup>th</sup> street, Mandalay</p>
+                    <p><i class="fas fa-phone"></i>+959 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i>travelcrazy@travel.com</p>
+                    <p><i class="fab fa-twitter"></i>ForU travel</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="recent-post">
+                    <h5>Recent Post</h5>
+                    <p>Standard Blog Post</p>
+                    <p>Link Post</p>
+                    <p>New Travel Images</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="tag">
+                    <h5>Tags</h5>
+                    <p><span class="agent">Agent login</span>&nbsp;<span>Customer login</span></p>
+                    <p><span>Not a member?</span></p>
+                    <p><span>Nice</span>&nbsp;<span>New horizons</span></p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="follow">
+                    <h5>Follow Us</h5>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i><br>
+                    <i class="fab fa-spotify"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center">Copyright &copy; All right reserved Designed by ATSK</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
+    <!-- Waypoint Js -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <!-- Custom JS -->
+    <script src="resource/js/script.js"></script>
+</body>
+</html>
+  

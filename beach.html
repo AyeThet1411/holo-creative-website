@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Exploring Website</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="resource/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resource/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resource/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="resource/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="resource/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="resource/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="resource/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- custom css -->
+    <link rel="stylesheet" href="resource/css/style.css" />
+    <link rel="stylesheet" href="resource/css/mediaquery.css">
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"/>
+     <!-- fontawesome -->
+     <link
+     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous"
+     referrerpolicy="no-referrer"/>
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="./vendors/css/owl.carousel.min.css" />
+   <link rel="stylesheet" href="./vendors/css/owl.theme.default.css" />
+</head>
+<body>
+    <section class="home-explore home-beach">
+        <nav class="navbar fixed-top">
+            <a href="#home" class="navbar-brand text-dark"><img src="resource/img/logo.png" alt=""></a>
+            <ul class="text-list list-unstyled">
+              <li class="list-inline-item"><a href="index.html">Home</a></li>
+              <li class="list-inline-item"><a href="#">Explore</a></li>
+              <li class="list-inline-item"><a href="#">Services</a></li>
+              <li class="list-inline-item"><a href="#">About</a></li>
+              <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="social-link list-unstyled">
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="far fa-heart"></i></a>
+              </li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <div id="home-overlay"></div>
+            <div class="beach-header">
+              <h2>Beach</h2>
+              <h6>Explore a littel more about beaches</h6>
+            </div>
+        </div>
+    </section>
+    <section class="explore-section">
+      <div class="content-box-lg">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="owl-filter-bar btn-filter-bar ">
+                  <button class="btn item active-color" data-owl-filter="*">
+                    <span>All</span>
+                  </button>
+                  <button class="btn item active-color" data-owl-filter=".australia">
+                    <span>Australia</span>
+                  </button>
+                  <button class="btn item active-color" data-owl-filter=".myanmar">
+                    <span>Myanmar</span>
+                  </button>
+                  <button class="btn item active-color" data-owl-filter=".korea">
+                    <span>Korea</span>
+                  </button>
+                  <button class="btn item active-color" data-owl-filter=".japan">
+                    <span>Japan</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--  filter for card -->
+            <div class="row">
+                <div class="col-md-12">
+                  <!-- Card Carousel -->
+                    <div id="beach-carousel" class="owl-carousel owl-theme">
+                        <div class="card item australia">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/australia/Cable Beach.jpg">
+                              <img src="./resource/img/beach/australia/Cable Beach.jpg" alt="Cable" class="img-responsive" />
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Cable Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>Cable Beach Road West, Cable Beach, Western Australia, 6726</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div> 
+                        </div>
+                        <div class="card item japan">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach//japan/Jodogahama.jpg">
+                              <img src="./resource/img/beach/japan/Jodogahama.jpg" alt="Jodogahama" class="img-responsive" />
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Jodogahama Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>$250</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>Miyako, Iwate Prefecture, Japan</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item australia">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/australia/Noosa.jpg">
+                              <img src="./resource/img/beach/australia/Noosa.jpg" alt="Noosa" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Noosa Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>Noosa, on Queensland’s Sunshine Coast,Australia</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item australia">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/australia/Turquoise Bay.jpg">
+                              <img src="./resource/img/beach/australia/Turquoise Bay.jpg" alt="Turquoise" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Turquoise Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p> Al Qulayleh, Nakoura Street, Tyre,Australia</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item australia">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/australia/Vivonne Bay.jpg">
+                              <img src="./resource/img/beach/australia/Vivonne Bay.jpg" alt="Vivonne" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Vivonne Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>Vivonne Bay Beach, Vivonne Bay, Kangaroo Island, South Australia</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card  item korea">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/korea/Daecheon.png">
+                              <img src="./resource/img/beach/korea/Daecheon.png" alt="Daecheon"class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Daecheon Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>Boryeong, Chungcheongnam-do, 100 meter-wide sandy beach.</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item korea">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/korea/Hamdeok.jpg">
+                              <img src="./resource/img/beach/korea/Hamdeok.jpg" alt="Hamdeok" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Hamdeok Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>Jeju-do</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item myanmar">
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/myanmar/chaungthar.jpg">
+                              <img src="./resource/img/beach/myanmar/chaungthar.jpg" alt="chaungthar"class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Chaungthar Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>in Ayeyarwady Region, Myanmar</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item myanmar" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/myanmar/ngapali.jpg">
+                              <img src="./resource/img/beach/myanmar/ngapali.jpg" alt="ngapali" class="img-responsive" />
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Ngapali Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p> on the Bay of Bengal coast in Rakhine State, Myanmar</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item myanmar" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/myanmar/ngwesaung.jpg">
+                              <img  src="./resource/img/beach/myanmar/ngwesaung.jpg" alt="ngwesaung" class="img-responsive" />
+                            </a>
+                            </div>
+                            <div class="card-title">
+                              <h5>Ngwesaung Beach</h5>
+                            </div>
+                            <div class="card-body">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                  <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                  <div class="col-sm-10 p-0"> <h6>Location</h6><p> 48 km west of Pathein, Ayeyarwady Region, Myanmar.</p></div>
+                                </div>
+                                <div class="row justify-content-center">
+                                  <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card item korea" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/korea/Eurwangni.jpg">
+                              <img src="./resource/img/beach/korea/Eurwangni.jpg"  alt="Eurwangni" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Eurwangni Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p> Yongyu-dong, Incheon,South Korea</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item korea" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/korea/Muchangpo.jpg">
+                              <img  src="./resource/img/beach/korea/Muchangpo.jpg"alt="Muchangpo" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Muchangpo Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>Chungcheongnam-do,on the west coast of Korea</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item korea" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/korea/Seobin.jpg">
+                              <img src="./resource/img/beach/korea/Seobin.jpg" alt="Seobin" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Seobin Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p> Yeon-dong, Jeju-si, Jeju-do,south korea</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item japan" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/japan/Shirahama Onsen.jpg">
+                              <img src="./resource/img/beach/japan/Shirahama Onsen.jpg" alt="Shirahama" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Shirahama Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p> Shirahama in Wakayama Japan</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item japan" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/japan/Yuigahama.jpg">
+                              <img src="./resource/img/beach/japan/Yuigahama.jpg" alt="Yuigahama" class="img-responsive" />
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Yuigahama Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>  in the Kamakura area, Japan</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card item japan" >
+                          <div class="card-img-top image-item">
+                            <a href="./resource/img/beach/japan/Zushi.jpg">
+                              <img src="./resource/img/beach/japan/Zushi.jpg" alt="Zushi" class="img-responsive"/>
+                            </a>
+                          </div>
+                          <div class="card-title">
+                            <h5>Zushi Beach</h5>
+                          </div>
+                          <div class="card-body">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-dollar-sign"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Entry cost </h6><p>Free</p></div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-2 p-0"><i class="fas fa-map-marked-alt"></i></div>
+                                <div class="col-sm-10 p-0"> <h6>Location</h6><p>   in Kanagawa Prefecture, Japan</p></div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <a href="" class="btn btn-general favorite" role="button">Add to Favorite</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div class="jumbotron jumbotron-fluid mb-0">
+          <div class="container-fluid">
+            <div id="footer-box">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="address">
+                    <h5>Our Address</h5>
+                    <p><i class="fas fa-map-marker-alt"></i>78 <sup>th</sup> street, Mandalay</p>
+                    <p><i class="fas fa-phone"></i>+959 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i>travelcrazy@travel.com</p>
+                    <p><i class="fab fa-twitter"></i>ForU travel</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="recent-post">
+                    <h5>Recent Post</h5>
+                    <p>Standard Blog Post</p>
+                    <p>Link Post</p>
+                    <p>New Travel Images</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="tag">
+                    <h5>Tags</h5>
+                    <p><span class="agent">Agent login</span>&nbsp;<span>Customer login</span></p>
+                    <p><span>Not a member?</span></p>
+                    <p><span>Nice</span>&nbsp;<span>New horizons</span></p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="follow">
+                    <h5>Follow Us</h5>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i><br>
+                    <i class="fab fa-spotify"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center">Copyright &copy; All right reserved Designed by ATSK</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
+    <!-- Waypoint Js -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <!-- Carousel JS -->
+    <script src="vendors/js/owl.carousel.js"></script>
+    <script src="vendors/js/owl.carousel.min.js"></script>
+    <script src="vendors/js/owlcarousel2-filter.min.js"></script>
+    <!-- slick carousel js -->
+    <script src="vendors/js/slick.min.js"></script>
+    <!-- Custom JS -->
+    <script src="resource/js/script.js"></script>
+</body>
+</html>
+  
